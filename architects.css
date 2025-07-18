@@ -7,3 +7,41 @@
     font-weight: 400px;
     font-style: normal;
 }
+
+/* shared styles */
+/* dark 02 */
+.display-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.text-gray {
+    color: #424242;
+}
+
+/* dark 03 */
+.text-gray-gray {
+    color: #727272;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Header styles */
+
+
+/* Navber related styles */
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.navbar,
+.nav-item {
+    max-width: 1440px;
+    margin: 0 auto;
+}
